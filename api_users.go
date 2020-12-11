@@ -31,7 +31,16 @@ func CreateUser(w http.ResponseWriter, r *http.Request) {
 }
 
 func AllUsers(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "AllUsers")
+
+	values := r.URL.Query()
+
+	page := values["page"]
+	rows := values["rows"]
+	startName := values["startName"]
+
+	fmt.Println("Hostname: ", r.URL.Hostname())
+
+	fmt.Fprintf(w, "AllUsers: %v %v %v", page, rows, startName)
 }
 
 func UserByID(w http.ResponseWriter, r *http.Request) {
