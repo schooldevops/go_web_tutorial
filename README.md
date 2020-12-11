@@ -18,6 +18,6 @@
 
 ## 9. DB Connection Pool
 
-## 10. Make basic CRUD a Todo service
+## 10. Make a basic CRUD Todo service
 
 
