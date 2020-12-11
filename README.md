@@ -14,12 +14,10 @@
 
 ## 7. Write Response Module 
 
-## 8. Request and Response with JSON
+## 8. Serving with MariaDB
 
-## 10. Serving with MariaDB
+## 9. DB Connection Pool
 
-## 11. DB Connection Pool
-
-## 12. Make basic CRUD a Todo service
+## 10. Make basic CRUD a Todo service
 
 
