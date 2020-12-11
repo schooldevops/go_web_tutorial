@@ -1,0 +1,17 @@
+### GET
+GET http://localhost:8080/api/users/1
+
+### POST User
+POST http://localhost:8080/api/users
+
+### PUT User
+PUT http://localhost:8080/api/users
+
+### GET subject
+GET http://localhost:8080/api/subjects/1
+
+### POST User
+POST http://localhost:8080/api/subjects
+
+### POST User
+PUT http://localhost:8080/api/subjects/
