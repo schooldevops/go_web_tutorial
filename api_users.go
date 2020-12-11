@@ -10,7 +10,7 @@ import (
 func usersHandlers() []handler {
 	return []handler{
 		{path: "/users/{id}/summary/{key}", fun: GetUserSummaryByKey, methods: []string{"GET"}},
-		{path: "/users/{id}", fun: UserByID, methods: []string{"GET"}},
+		{path: "/users/{id:[0-9]+}", fun: UserByID, methods: []string{"GET"}},
 		{path: "/users/{id}", fun: DeleteUserByID, methods: []string{"DELETE"}},
 		{path: "/users", fun: CreateUser, methods: []string{"POST"}},
 		{path: "/users", fun: AllUsers, methods: []string{"GET"}},
